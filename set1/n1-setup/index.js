@@ -1,0 +1,1 @@
+console.log("Hello! My name is Jasmine De Leon Santos, a 4th year student in PSU, and this is my 1st Node.js activity.");
