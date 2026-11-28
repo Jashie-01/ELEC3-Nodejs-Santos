@@ -18,7 +18,7 @@ const numbers = process.argv.slice(3).map(Number); // The numbers are the rest o
 // Checking 1: Is the operation correct?
 if (!Object.hasOwn(operations, operation)) {
   console.log(`Error: Unknown operation "${operation}".`);
-  console.log(`Usage: node ${fileName} <add|subtract|multiply|divide|average> <numbers>`);
+  console.log(`Usage: node ${fileName} <add|subtract|multiply|divide|average> <numbers>`); // A guide that shows the right way to type, and it only appears when the user type wrong data.
   process.exit(1); // this stops the program. The 1 is the exit code.
 }
 
